@@ -1,0 +1,19 @@
+{
+  "name": "firebase",
+  "version": "1.0.0",
+  "description": "This project is for learning firebase.",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "firebase",
+    "database",
+    "backend",
+    "push",
+    "notifications"
+  ],
+  "author": "Utkarsh Sharma",
+  "license": "ISC"
+}
