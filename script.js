@@ -16,7 +16,7 @@ btn.addEventListener('click', (Event)=>{
     let email = document.querySelector('#email').value;
     let password = document.querySelector('#password').value;
     let resultBox = document.querySelector('#result-box');
-    // Event.preventDefault();
+    Event.preventDefault();
     createUserWithEmailAndPassword(auth, email, password)
     .then((userCredential) => {
         // Signed up 
